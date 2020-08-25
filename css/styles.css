@@ -1,0 +1,383 @@
+
+h1,h2,h3,h4{
+  font-family: 'Montserrat',sans-serif ;
+}
+
+
+/* header section */
+#header{
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("surgery.jpg");
+  background-size: cover ;
+  height: 850px;
+}
+
+.header-box{
+    margin: 20% 10%;
+}
+
+.header-content{
+  color: white;
+  font-family: 'Montserrat-Black',sans-serif ;
+}
+
+h2.header-content{
+  line-height: 1.7;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+h1.header-content{
+  line-height: 1.7;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+h3.header-content{
+  line-height: 1.7;
+  font-size: 3.7rem;
+  font-weight: 200;
+}
+button.header-content{
+  margin-top: 50px;
+}
+
+/* navbar */
+
+.navigation-bar{
+  padding: 1% 2%;
+}
+.nav-item{
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+.navbar-brand{
+  padding-left: 30px;
+  font-size: 2rem;
+}
+/* title section */
+#title{
+  width: 60%;
+}
+div.title-row{
+  padding: 7% 3%;
+}
+
+.title-image{
+  border-radius: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.title-content h1{
+  font-family: 'Montserrat',sans-serif;
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.title-content h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.title-content{
+  padding-left: 4%;
+}
+
+.content{
+  color: grey;
+  padding-left: 0;
+  line-height: 1.5;
+  font-family: 'Lemon',sans-serif;
+  font-weight: 100;
+}
+
+.check-icon{
+  color: #0275d8;
+}
+/* department section */
+#department{
+  padding: 2% 10%;
+  background-color: #f6f4e6;
+}
+
+.learn-more-btn{
+  margin-left: 70%;
+  margin-top: 12%;
+  margin-bottom: auto;
+}
+.row-1{
+  padding-bottom: 20px;
+}
+
+.row-2{
+  padding-bottom: 30px;
+}
+.heading{
+  font-family: 'Montserrat-Black',sans-serif ;
+  line-height: 1.7;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+#department .card{
+  text-align: center;
+  margin: 15px 0px;
+  font-weight:700;
+  font-size: 1.1rem;
+}
+
+
+#department .card:hover{
+  border: 2px solid;
+  border-color: #0275d8;
+  transform: scale(1.05);
+}
+
+#department .card-body{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#department .card-img-top{
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+#department .card-footer{
+  padding-left: 10px;
+  padding-right: px;
+}
+#department .card-footer:hover{
+  color:  #0275d8;
+}
+
+.carousel-img{
+  height:inherit;
+  width: inherit;
+}
+
+/* staff section */
+#staff{
+  width: 80%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.staff-heading{
+  font-family: 'Montserrat-Black',sans-serif;
+
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.staff-desc{
+  font-family: 'Lemon',sans-serif;
+  color: grey;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#staff .row{
+  margin-top: 50px;
+}
+#staff .card-title{
+  color: #0275d8;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#staff .card-body{
+  padding: 0px 15px;
+}
+
+.card-footer-icon{
+  padding: 0 8%;
+  color: grey;
+}
+
+.card-footer-icon:hover{
+  color: #0275d8;
+}
+
+#staff .card-img-top{
+  padding: 5% 5%;
+}
+#staff .card-img-top:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+  .card-img{
+    margin: auto;
+    height: 90%;
+    width: 90%;
+  }
+}
+
+/* appointment */
+
+#appointment{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("surgery.jpg");
+}
+.form-box
+{
+  width: 60%;
+  margin-left: auto;
+  padding: 5% 3%;
+}
+
+.appointment-btn{
+  margin-top: 20px;
+}
+
+.form-box .col{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* footer */
+#footer-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+#footer-section card{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.footer-card-icon{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  hight: 80px;
+}
+
+#footer-section .card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 30px;
+}
+#footer-section .card-body{
+  padding-top: 0;
+}
+#footer-section .card:hover{
+  border: 2px solid;
+  border-color: #0275d8;
+  transform: scale(1.05);
+}
+
+
+/* emergency section */
+
+
+.book-appointment, .emergency-contact{
+  background-color: #00a8cc;
+  height: 260px;
+  border: 1px solid;
+}
+
+.emergency-content{
+  color: #fff;
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-top:30px;
+  margin-left: 40px;
+
+}
+.emergency-btn{
+  margin-left:40px;
+  margin-top: 30px;
+}
+
+.mobile-icon{
+  margin: 30px 20px;
+  float: left;
+  height: 120px;
+  width: 120px;
+}
+
+/* end-section */
+#end-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family:  'Montserrat-Black',sans-serif;
+  font-size: 1.2rem;
+  color: #d6e5fa;
+  background-color: #142850;
+
+}
+
+.end-section-box{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.end-title{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: white;
+  font-weight: 600;
+}
+
+.table-header{
+  padding-top: 8%;
+  padding-bottom: 5%;
+  color: white;
+  font-weight: 600;
+}
+
+td{
+  padding: 5px 10px;
+}
+
+hr.horizontal {
+  color: white; border: 1px solid;
+  width: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.end-icon{
+  padding: 2% 5%;
+}
+.copyright-section{
+  padding-top: 70px;
+  text-align: center;
+}
+.bottom-rule{
+  color: white;
+  border: 1px solid;
+  width: 80%;
+}
+.table1 tbody td:hover{
+  color:#0275d8;
+}
+
+
+/* media queries */
+
+@media (max-width: 1000px) {
+
+.form-box{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
